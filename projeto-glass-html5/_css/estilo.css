@@ -107,3 +107,45 @@ footer p a{
     text-decoration: none;
     color: inherit;
 }
+
+table#tabela{
+
+border: 1px solid #606060; 
+
+border-spacing: 0px; 
+
+margin-left: auto;
+
+margin-right: auto;
+
+}
+
+table#tabela td{
+
+border: 1px solid #606060;
+padding: 10px;
+}
+
+table#tabela td.esquerda{
+  color:white;
+  background: #80808080;
+}
+
+table#tabela td.direita{
+  background: #cececece;
+}
+
+table#tabela caption{
+  color: #888888
+  font-weigth: 20pt;
+  font-weigth: bolder; 
+  
+}
+
+table#tabela caption span{
+  display: block;
+  float: right;
+  color: #000000;
+  font-size: 10pt;
+  margin-top: 5px;
+}
